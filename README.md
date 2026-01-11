@@ -1,34 +1,33 @@
-# Spam Email Classifier
+# Diabetes Prediction Using SVM
 
 ## Problem Statement
-The goal of this project is to build a machine learning model that can accurately classify emails as spam or non-spam (ham) using text-based features.
+The objective of this project is to build a machine learning model that predicts whether a patient has diabetes based on medical diagnostic measurements.
 
 ## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- TF-IDF Vectorizer
+- Support Vector Machine (SVM)
 
 ## Approach
-- Performed data cleaning and preprocessing on raw email text
-- Extracted numerical features using TF-IDF vectorization
-- Trained a Logistic Regression classifier on the processed data
-- Evaluated model performance using accuracy metric
-- Ensured no data leakage by fitting the vectorizer only on training data
+- Loaded and analyzed the diabetes dataset
+- Split the dataset into training and testing sets
+- Applied feature scaling using StandardScaler
+- Trained a linear Support Vector Machine classifier
+- Evaluated the model using accuracy metric
+- Ensured no data leakage by fitting the scaler only on training data
 
 ## Project Structure
-
-- `data/` – Contains the dataset used for training and testing
-- `src/` – Source code for data preprocessing, model definition, and training
-  - `data_preprocessing.py` – Data cleaning and feature extraction
-  - `model.py` – Machine learning model definition
-  - `train.py` – Model training and evaluation script
-- `notebook/` – Jupyter notebook used for experimentation
+- `dataset/` – Contains the diabetes dataset
+- `src/`
+  - `data_preprocessing.py` – Data loading, splitting, and scaling
+  - `model.py` – SVM model definition
+  - `train.py` – Model training and evaluation
 - `requirements.txt` – Project dependencies
 - `README.md` – Project documentation
 
 ## Results
-- Achieved an accuracy of **96.6%** on the test dataset
+- Achieved an accuracy of **XX%** on the test dataset
 
 ## How to Run
 1. Clone the repository  
