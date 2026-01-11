@@ -27,7 +27,7 @@ The objective of this project is to build a machine learning model that predicts
 - `README.md` – Project documentation
 
 ## Results
-- Achieved an accuracy of **XX%** on the test dataset
+- Achieved an accuracy of **77%** on the test dataset
 
 ## How to Run
 1. Clone the repository  
