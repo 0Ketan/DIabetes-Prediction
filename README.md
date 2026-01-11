@@ -34,3 +34,6 @@ The objective of this project is to build a machine learning model that predicts
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+3. Run the training script:
+   ```bash
+   python src/train.py
